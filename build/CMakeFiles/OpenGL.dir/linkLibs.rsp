@@ -1,0 +1,1 @@
+  -LD:/Desktop/C++/OpenGL/lib  -LD:/Desktop/C++/OpenGL/bin  -Wl,-Bstatic -lassimp -Wl,-Bdynamic -lassimp -Wl,-Bstatic -lglad -lglfw3 -lglfw3dll -Wl,-Bdynamic -lglfw3 -lassimp -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
