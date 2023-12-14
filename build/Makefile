@@ -56,10 +56,10 @@ RM = D:\Software\cmake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Desktop\C++\OpenGL
+CMAKE_SOURCE_DIR = D:\Desktop\C++\LearnOpenGL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Desktop\C++\OpenGL\build
+CMAKE_BINARY_DIR = D:\Desktop\C++\LearnOpenGL\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Desktop\C++\OpenGL\build\CMakeFiles D:\Desktop\C++\OpenGL\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Desktop\C++\LearnOpenGL\build\CMakeFiles D:\Desktop\C++\LearnOpenGL\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Desktop\C++\OpenGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Desktop\C++\LearnOpenGL\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,29 +128,29 @@ OpenGL/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGL.dir\build.make CMakeFiles/OpenGL.dir/build
 .PHONY : OpenGL/fast
 
-src/47_ibl_irradiance_conversion/main.obj: src/47_ibl_irradiance_conversion/main.cpp.obj
-.PHONY : src/47_ibl_irradiance_conversion/main.obj
+src/49_ibl_specular/main.obj: src/49_ibl_specular/main.cpp.obj
+.PHONY : src/49_ibl_specular/main.obj
 
 # target to build an object file
-src/47_ibl_irradiance_conversion/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGL.dir\build.make CMakeFiles/OpenGL.dir/src/47_ibl_irradiance_conversion/main.cpp.obj
-.PHONY : src/47_ibl_irradiance_conversion/main.cpp.obj
+src/49_ibl_specular/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGL.dir\build.make CMakeFiles/OpenGL.dir/src/49_ibl_specular/main.cpp.obj
+.PHONY : src/49_ibl_specular/main.cpp.obj
 
-src/47_ibl_irradiance_conversion/main.i: src/47_ibl_irradiance_conversion/main.cpp.i
-.PHONY : src/47_ibl_irradiance_conversion/main.i
+src/49_ibl_specular/main.i: src/49_ibl_specular/main.cpp.i
+.PHONY : src/49_ibl_specular/main.i
 
 # target to preprocess a source file
-src/47_ibl_irradiance_conversion/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGL.dir\build.make CMakeFiles/OpenGL.dir/src/47_ibl_irradiance_conversion/main.cpp.i
-.PHONY : src/47_ibl_irradiance_conversion/main.cpp.i
+src/49_ibl_specular/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGL.dir\build.make CMakeFiles/OpenGL.dir/src/49_ibl_specular/main.cpp.i
+.PHONY : src/49_ibl_specular/main.cpp.i
 
-src/47_ibl_irradiance_conversion/main.s: src/47_ibl_irradiance_conversion/main.cpp.s
-.PHONY : src/47_ibl_irradiance_conversion/main.s
+src/49_ibl_specular/main.s: src/49_ibl_specular/main.cpp.s
+.PHONY : src/49_ibl_specular/main.s
 
 # target to generate assembly for a file
-src/47_ibl_irradiance_conversion/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGL.dir\build.make CMakeFiles/OpenGL.dir/src/47_ibl_irradiance_conversion/main.cpp.s
-.PHONY : src/47_ibl_irradiance_conversion/main.cpp.s
+src/49_ibl_specular/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGL.dir\build.make CMakeFiles/OpenGL.dir/src/49_ibl_specular/main.cpp.s
+.PHONY : src/49_ibl_specular/main.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... OpenGL
-	@echo ... src/47_ibl_irradiance_conversion/main.obj
-	@echo ... src/47_ibl_irradiance_conversion/main.i
-	@echo ... src/47_ibl_irradiance_conversion/main.s
+	@echo ... src/49_ibl_specular/main.obj
+	@echo ... src/49_ibl_specular/main.i
+	@echo ... src/49_ibl_specular/main.s
 .PHONY : help
 
 

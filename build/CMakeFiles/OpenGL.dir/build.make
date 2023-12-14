@@ -52,10 +52,10 @@ RM = D:\Software\cmake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Desktop\C++\OpenGL
+CMAKE_SOURCE_DIR = D:\Desktop\C++\LearnOpenGL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Desktop\C++\OpenGL\build
+CMAKE_BINARY_DIR = D:\Desktop\C++\LearnOpenGL\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/OpenGL.dir/depend.make
@@ -68,38 +68,38 @@ include CMakeFiles/OpenGL.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/OpenGL.dir/flags.make
 
-CMakeFiles/OpenGL.dir/src/47_ibl_irradiance_conversion/main.cpp.obj: CMakeFiles/OpenGL.dir/flags.make
-CMakeFiles/OpenGL.dir/src/47_ibl_irradiance_conversion/main.cpp.obj: CMakeFiles/OpenGL.dir/includes_CXX.rsp
-CMakeFiles/OpenGL.dir/src/47_ibl_irradiance_conversion/main.cpp.obj: D:/Desktop/C++/OpenGL/src/47_ibl_irradiance_conversion/main.cpp
-CMakeFiles/OpenGL.dir/src/47_ibl_irradiance_conversion/main.cpp.obj: CMakeFiles/OpenGL.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Desktop\C++\OpenGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGL.dir/src/47_ibl_irradiance_conversion/main.cpp.obj"
-	D:\Software\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenGL.dir/src/47_ibl_irradiance_conversion/main.cpp.obj -MF CMakeFiles\OpenGL.dir\src\47_ibl_irradiance_conversion\main.cpp.obj.d -o CMakeFiles\OpenGL.dir\src\47_ibl_irradiance_conversion\main.cpp.obj -c D:\Desktop\C++\OpenGL\src\47_ibl_irradiance_conversion\main.cpp
+CMakeFiles/OpenGL.dir/src/49_ibl_specular/main.cpp.obj: CMakeFiles/OpenGL.dir/flags.make
+CMakeFiles/OpenGL.dir/src/49_ibl_specular/main.cpp.obj: CMakeFiles/OpenGL.dir/includes_CXX.rsp
+CMakeFiles/OpenGL.dir/src/49_ibl_specular/main.cpp.obj: D:/Desktop/C++/LearnOpenGL/src/49_ibl_specular/main.cpp
+CMakeFiles/OpenGL.dir/src/49_ibl_specular/main.cpp.obj: CMakeFiles/OpenGL.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Desktop\C++\LearnOpenGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGL.dir/src/49_ibl_specular/main.cpp.obj"
+	D:\Software\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenGL.dir/src/49_ibl_specular/main.cpp.obj -MF CMakeFiles\OpenGL.dir\src\49_ibl_specular\main.cpp.obj.d -o CMakeFiles\OpenGL.dir\src\49_ibl_specular\main.cpp.obj -c D:\Desktop\C++\LearnOpenGL\src\49_ibl_specular\main.cpp
 
-CMakeFiles/OpenGL.dir/src/47_ibl_irradiance_conversion/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL.dir/src/47_ibl_irradiance_conversion/main.cpp.i"
-	D:\Software\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Desktop\C++\OpenGL\src\47_ibl_irradiance_conversion\main.cpp > CMakeFiles\OpenGL.dir\src\47_ibl_irradiance_conversion\main.cpp.i
+CMakeFiles/OpenGL.dir/src/49_ibl_specular/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL.dir/src/49_ibl_specular/main.cpp.i"
+	D:\Software\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Desktop\C++\LearnOpenGL\src\49_ibl_specular\main.cpp > CMakeFiles\OpenGL.dir\src\49_ibl_specular\main.cpp.i
 
-CMakeFiles/OpenGL.dir/src/47_ibl_irradiance_conversion/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL.dir/src/47_ibl_irradiance_conversion/main.cpp.s"
-	D:\Software\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Desktop\C++\OpenGL\src\47_ibl_irradiance_conversion\main.cpp -o CMakeFiles\OpenGL.dir\src\47_ibl_irradiance_conversion\main.cpp.s
+CMakeFiles/OpenGL.dir/src/49_ibl_specular/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL.dir/src/49_ibl_specular/main.cpp.s"
+	D:\Software\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Desktop\C++\LearnOpenGL\src\49_ibl_specular\main.cpp -o CMakeFiles\OpenGL.dir\src\49_ibl_specular\main.cpp.s
 
 # Object files for target OpenGL
 OpenGL_OBJECTS = \
-"CMakeFiles/OpenGL.dir/src/47_ibl_irradiance_conversion/main.cpp.obj"
+"CMakeFiles/OpenGL.dir/src/49_ibl_specular/main.cpp.obj"
 
 # External object files for target OpenGL
 OpenGL_EXTERNAL_OBJECTS =
 
-D:/Desktop/C++/OpenGL/bin/OpenGL.exe: CMakeFiles/OpenGL.dir/src/47_ibl_irradiance_conversion/main.cpp.obj
-D:/Desktop/C++/OpenGL/bin/OpenGL.exe: CMakeFiles/OpenGL.dir/build.make
-D:/Desktop/C++/OpenGL/bin/OpenGL.exe: CMakeFiles/OpenGL.dir/linkLibs.rsp
-D:/Desktop/C++/OpenGL/bin/OpenGL.exe: CMakeFiles/OpenGL.dir/objects1.rsp
-D:/Desktop/C++/OpenGL/bin/OpenGL.exe: CMakeFiles/OpenGL.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Desktop\C++\OpenGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable D:\Desktop\C++\OpenGL\bin\OpenGL.exe"
+D:/Desktop/C++/LearnOpenGL/bin/OpenGL.exe: CMakeFiles/OpenGL.dir/src/49_ibl_specular/main.cpp.obj
+D:/Desktop/C++/LearnOpenGL/bin/OpenGL.exe: CMakeFiles/OpenGL.dir/build.make
+D:/Desktop/C++/LearnOpenGL/bin/OpenGL.exe: CMakeFiles/OpenGL.dir/linkLibs.rsp
+D:/Desktop/C++/LearnOpenGL/bin/OpenGL.exe: CMakeFiles/OpenGL.dir/objects1.rsp
+D:/Desktop/C++/LearnOpenGL/bin/OpenGL.exe: CMakeFiles/OpenGL.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Desktop\C++\LearnOpenGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable D:\Desktop\C++\LearnOpenGL\bin\OpenGL.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\OpenGL.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/OpenGL.dir/build: D:/Desktop/C++/OpenGL/bin/OpenGL.exe
+CMakeFiles/OpenGL.dir/build: D:/Desktop/C++/LearnOpenGL/bin/OpenGL.exe
 .PHONY : CMakeFiles/OpenGL.dir/build
 
 CMakeFiles/OpenGL.dir/clean:
@@ -107,6 +107,6 @@ CMakeFiles/OpenGL.dir/clean:
 .PHONY : CMakeFiles/OpenGL.dir/clean
 
 CMakeFiles/OpenGL.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Desktop\C++\OpenGL D:\Desktop\C++\OpenGL D:\Desktop\C++\OpenGL\build D:\Desktop\C++\OpenGL\build D:\Desktop\C++\OpenGL\build\CMakeFiles\OpenGL.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Desktop\C++\LearnOpenGL D:\Desktop\C++\LearnOpenGL D:\Desktop\C++\LearnOpenGL\build D:\Desktop\C++\LearnOpenGL\build D:\Desktop\C++\LearnOpenGL\build\CMakeFiles\OpenGL.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/OpenGL.dir/depend
 

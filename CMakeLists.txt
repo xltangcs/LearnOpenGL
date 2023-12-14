@@ -4,7 +4,7 @@ project(OpenGL)
 
 set(root_directory ${PROJECT_SOURCE_DIR})
 
-set(srcfiles ${PROJECT_SOURCE_DIR}/src/47_ibl_irradiance_conversion/main.cpp)
+set(srcfiles ${PROJECT_SOURCE_DIR}/src/49_ibl_specular/main.cpp)
 
 #设定可执行二进制文件的目录
 SET(EXECUTABLE_OUTPUT_PATH ${root_directory}/bin)

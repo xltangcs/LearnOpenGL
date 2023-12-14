@@ -1,8 +1,8 @@
 [
 {
-  "directory": "D:/Desktop/C++/OpenGL/build",
-  "command": "D:\\Software\\MinGW\\bin\\g++.exe  @CMakeFiles/OpenGL.dir/includes_CXX.rsp -g -o CMakeFiles\\OpenGL.dir\\src\\47_ibl_irradiance_conversion\\main.cpp.obj -c D:\\Desktop\\C++\\OpenGL\\src\\47_ibl_irradiance_conversion\\main.cpp",
-  "file": "D:/Desktop/C++/OpenGL/src/47_ibl_irradiance_conversion/main.cpp",
-  "output": "CMakeFiles/OpenGL.dir/src/47_ibl_irradiance_conversion/main.cpp.obj"
+  "directory": "D:/Desktop/C++/LearnOpenGL/build",
+  "command": "D:\\Software\\MinGW\\bin\\g++.exe  @CMakeFiles/OpenGL.dir/includes_CXX.rsp -g -o CMakeFiles\\OpenGL.dir\\src\\49_ibl_specular\\main.cpp.obj -c D:\\Desktop\\C++\\LearnOpenGL\\src\\49_ibl_specular\\main.cpp",
+  "file": "D:/Desktop/C++/LearnOpenGL/src/49_ibl_specular/main.cpp",
+  "output": "CMakeFiles/OpenGL.dir/src/49_ibl_specular/main.cpp.obj"
 }
 ]

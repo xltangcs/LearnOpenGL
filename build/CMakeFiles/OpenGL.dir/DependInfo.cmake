@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/Desktop/C++/OpenGL/src/47_ibl_irradiance_conversion/main.cpp" "CMakeFiles/OpenGL.dir/src/47_ibl_irradiance_conversion/main.cpp.obj" "gcc" "CMakeFiles/OpenGL.dir/src/47_ibl_irradiance_conversion/main.cpp.obj.d"
+  "D:/Desktop/C++/LearnOpenGL/src/49_ibl_specular/main.cpp" "CMakeFiles/OpenGL.dir/src/49_ibl_specular/main.cpp.obj" "gcc" "CMakeFiles/OpenGL.dir/src/49_ibl_specular/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
